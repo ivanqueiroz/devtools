@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1430968548908
+Build-Jdk: 1.8.0_40
+Built-By: ivanqueiroz
+Bundle-ManifestVersion: 2
+Bundle-Name: devtools JavaScript Libraries
+Bundle-SymbolicName: com.ivanqueiroz.devtools.devtools.js
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.ivanqueiroz.devtools.devtools.js;version="1.0.0.SNAP
+ SHOT"
+Import-Package: org.netbeans.html.boot.spi;version="[1.1,2)"
+Tool: Bnd-2.1.0.20130426-122213

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ivanqueiroz.devtools.devtools.js.JsInteractionTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.232 sec - in com.ivanqueiroz.devtools.devtools.js.JsInteractionTest

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="col-xs-6">
+            <h1>DevTools</h1>
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>Gerador de CPF</legend>
+                    <div class="control-group">
+                        <label class="control-label" for="slcRegioes">Escolha a região:</label>
+                        <div class="controls">
+                            <select class="input-xlarge" id="slcRegioes" data-bind="options: regioes,
+                                optionsText: 'descricao',
+                                value: regiaoEscolhida,
+                                optionsCaption: 'Escolha...'">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="txtCpf">CPF:</label>
+                        <div class="controls">
+                            <input data-bind="value: cpf" disabled="true" id="txtCpf" class="input-xlarge" type="text">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="btnGerar"></label>
+                        <div class="controls">
+                            <button id="btnGerar" class="btn btn-primary" data-bind="click: $root.gerarCPF">Gerar CPF</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+        <!-- boot bck2brwsr -->
+        <script type="text/javascript" src="bck2brwsr.js"></script>
+        <script>
+            var vm = bck2brwsr('devtools.js');
+            var c = vm.loadClass('com.ivanqueiroz.devtools.devtools.BrowserMain');
+            c.invoke('main');
+        </script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

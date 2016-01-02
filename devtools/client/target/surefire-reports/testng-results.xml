@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="56" started-at="2015-05-07T03:15:49Z" finished-at="2015-05-07T03:15:49Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="56" started-at="2015-05-07T03:15:49Z" finished-at="2015-05-07T03:15:49Z">
+      <class name="com.ivanqueiroz.devtools.devtools.DataModelTest">
+        <test-method status="PASS" signature="areHelloWorldTwoWords()[pri:0, instance:com.ivanqueiroz.devtools.devtools.DataModelTest@3aa9e816]" name="areHelloWorldTwoWords" duration-ms="42" started-at="2015-05-07T00:15:49Z" finished-at="2015-05-07T00:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areHelloWorldTwoWords -->
+      </class> <!-- com.ivanqueiroz.devtools.devtools.DataModelTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
